@@ -11,15 +11,20 @@
 
     <link href="estilo.css" rel="stylesheet">
 </head>
+
 <body>
 
     <h1 id="titulo">Linha Do Tempo</h1>
 
     <form action="#" method="POST" id="formulario">
         <label for="mensagem">O que você está fazendo?</label>
-        <textarea name="mensagem" id="mensagem" rows="4"></textarea>
-        <div>
-            <input type="submit" value="Enviar">
+        <textarea name="mensagem" id="mensagem" rows="4" placeholder="digite uma mensagem"></textarea>
+        <div class="caixa-botao">
+            <button class="btn" type="submit">
+                <svg width="20px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                  </svg> Enviar
+            </button>
         </div>
     </form>
 
@@ -44,8 +49,6 @@
         </div>
 
     </div>
-
-
 
 </body>
 </html>
